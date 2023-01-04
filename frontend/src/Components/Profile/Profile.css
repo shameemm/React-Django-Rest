@@ -1,0 +1,37 @@
+.profilecard{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    margin: auto;
+}
+.profilecard:hover{
+    transform: scale(1.1);
+}
+.profilecard img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.profilecard h1{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.profilecard__body{
+    display:flex
+}
+
+.profilecard__body__right{
+    margin-left: 20px;
+    text-align: left;
+}
